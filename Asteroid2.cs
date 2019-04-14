@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//This Asteroid continuosly tracks and follows the player.//
 public class Asteroid2 : MonoBehaviour
 {
     //The speed, and rigidbody of the asteroid
