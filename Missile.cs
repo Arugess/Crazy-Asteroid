@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This spawns the missle and destroys it when it impacts an asteroid or when it has spawned for 5 seconds.//
+
 public class Missile : MonoBehaviour
 {
     private Rigidbody2D missileBody;
