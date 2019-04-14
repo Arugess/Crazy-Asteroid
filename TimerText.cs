@@ -4,6 +4,8 @@ using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This makes the text for the timer to count downward.//
+
 public class TimerText : MonoBehaviour
 {
 
