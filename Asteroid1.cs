@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This asteroid tracks the players position when it initially spawns.// 
+//It will move to the players position but won't continuosly chase the player.// 
 public class Asteroid1 : MonoBehaviour
 {
     //The speed, and rigidbody of the asteroid
