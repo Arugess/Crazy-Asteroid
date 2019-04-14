@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This will make a missile fire from the missle spawner.//
+
 public class FireMissile : MonoBehaviour
 {
     public GameObject missile1;
