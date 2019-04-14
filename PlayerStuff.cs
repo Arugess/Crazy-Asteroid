@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This calls on the rigidbody attached to the player and allows it to move.//
+//It also causes the player to lose health when it touches an asteroid.//
+
 public class PlayerStuff : MonoBehaviour
 {
     private Rigidbody2D earthBody;
