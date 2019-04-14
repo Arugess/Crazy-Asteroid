@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
+//This begins the level. It also starts the spawning of enemy asteroids, keeps track if the player dies, and if the player wins.//
+
 public class MainLevel : MonoBehaviour
 {
     public Transform[] spawnPoints;
