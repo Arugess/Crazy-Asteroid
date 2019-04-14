@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This script determines whether a missle can be fired and changes the text to to reflect if the player has ammunition.//
+
 public class MissileCount : MonoBehaviour
 {
     private int missileCount;
