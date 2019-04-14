@@ -2,22 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script will will make the missle spawner track the location of the mouse//
+
 public class FaceMouse : MonoBehaviour
 {
-
 
 	void Start ()
     {
 		
-	}
+    }
 	
-
 	void Update ()
     {
         faceMouse();
 
-
-	}
+    }
 
     void faceMouse()
     {
