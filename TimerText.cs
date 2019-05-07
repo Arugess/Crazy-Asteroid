@@ -10,11 +10,12 @@ public class TimerText : MonoBehaviour
 {
 
     Text time; 
-    public static float theTimer = 120.0f;
+    public static float theTimer;
 
     void Start()
     {
         time = GetComponent<Text>();
+        theTimer = 60.0f;
     }
 
 
