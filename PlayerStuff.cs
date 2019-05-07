@@ -9,17 +9,18 @@ public class PlayerStuff : MonoBehaviour
 {
     private Rigidbody2D earthBody;
     private float earthSpeed = 0.05f;
-    public static int playerHP = 3; 
+    public static int playerHP; 
 
-	void Start ()
+    void Start ()
     {
         earthBody = GetComponent<Rigidbody2D>();
-	}
+	playerHP = 3; 
+    }
 	
-	void Update ()
+    void Update ()
     {
 		
-	}
+    }
 
     private void FixedUpdate()
     {
@@ -37,5 +38,10 @@ public class PlayerStuff : MonoBehaviour
         {
             playerHP -= 1;
         }
+	
+	if (playerHP <= 0)
+	{
+		Destroy(gameObject);
+	}
     }
 }
